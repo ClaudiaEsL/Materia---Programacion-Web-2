@@ -1,14 +1,97 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+/*fin font*/
+
+
+
+
+
+
+
+
 body{
     margin: 0 5% 0 5%;
     background-color: black;
     color:white;
 }
 
-body::-webkit-scrollbar{width: 5px;} body::-webkit-scrollbar-thumb{background-color: #ff7712;color: #ff7712;}
+body::-webkit-scrollbar{width: 5px;} body::-webkit-scrollbar-thumb{background-color: #ff7712;color: #ff7712;}body::-webkit-scrollbar-button{background-color: blue; color: blue;}*::selection {
+    background-color: #ff7712;
+    color: #ffffff;
+}
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: rgb(255 119 18) !important;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #dc7529 !important;
+}
+
+/*SLIDER TITTLE*/
+.carousel-item
+{
+    position: relative;
+}
+.titulo1
+{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    background-color: #ff77127a;
+    padding: 50px;
+}
+.titulo1 h5 {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 900;
+    font-size: 4em;
+    width: 40%;
+    
+}
+.titulo1 p{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+    width: 40%;
+    
+}
+
+.carousel-item img
+{
+    filter: brightness(0.6);
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 2% !important;
+    color: blue !important;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.carousel-item .active > .titulo1
+{
+    animation: 1s titulo11 forwards;
+}
+@keyframes titulo11
+{
+    0%
+    {
+        transform: translateX(-100px);
+    }
+    100%
+    {
+        transform: translateX(0px);
+    }
 }
