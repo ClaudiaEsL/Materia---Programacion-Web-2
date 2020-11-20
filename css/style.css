@@ -3,3 +3,12 @@ body{
     background-color: black;
     color:white;
 }
+
+body::-webkit-scrollbar{width: 5px;} body::-webkit-scrollbar-thumb{background-color: #ff7712;color: #ff7712;}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 119 18) !important;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #dc7529 !important;
+}
