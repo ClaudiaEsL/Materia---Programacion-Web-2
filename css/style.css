@@ -40,6 +40,15 @@ body::-webkit-scrollbar{width: 5px;} body::-webkit-scrollbar-thumb{background-co
     background-color: #ff77127a;
     padding: 50px;
 }
+
+.titulo2
+{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-color: #dc354557;
+    padding: 50px;
+}
 .titulo1 h5 {
     color: white;
     font-family: 'Fjalla One', sans-serif;
@@ -48,7 +57,26 @@ body::-webkit-scrollbar{width: 5px;} body::-webkit-scrollbar-thumb{background-co
     width: 40%;
     
 }
+
+.titulo2 h5 {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 900;
+    font-size: 4em;
+    width: 40%;
+    text-align: end;
+    
+}
 .titulo1 p{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+    width: 40%;
+    text-align: end;
+    
+}
+.titulo2 p{
     color: white;
     font-family: 'Fjalla One', sans-serif;
     font-weight: 900;
@@ -80,18 +108,3 @@ body::-webkit-scrollbar{width: 5px;} body::-webkit-scrollbar-thumb{background-co
     transition: opacity .15s ease;
 }
 
-.carousel-item .active > .titulo1
-{
-    animation: 1s titulo11 forwards;
-}
-@keyframes titulo11
-{
-    0%
-    {
-        transform: translateX(-100px);
-    }
-    100%
-    {
-        transform: translateX(0px);
-    }
-}
