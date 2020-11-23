@@ -26,6 +26,12 @@
 /*fin font*/
 
 /* Configuracion de body o pagina global  ***  NO TOCAR ***/
+
+#particles-js .particles-js-canvas-el{
+   
+    
+    
+}
 body{
     
     background-color: black;
