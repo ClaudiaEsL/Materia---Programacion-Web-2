@@ -1,5 +1,6 @@
 /*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 /*fin font*/
 
 
@@ -39,6 +40,7 @@ body::-webkit-scrollbar{width: 5px;} body::-webkit-scrollbar-thumb{background-co
     left: 30px;
     background-color: #ff77127a;
     padding: 50px;
+    text-align: center;
 }
 
 .titulo2
@@ -48,6 +50,17 @@ body::-webkit-scrollbar{width: 5px;} body::-webkit-scrollbar-thumb{background-co
     right: 0px;
     background-color: #dc354557;
     padding: 50px;
+    text-align: center;
+}
+.titulo3
+{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background-color: #9e9e9e6b;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
 }
 .titulo1 h5 {
     color: white;
@@ -55,6 +68,17 @@ body::-webkit-scrollbar{width: 5px;} body::-webkit-scrollbar-thumb{background-co
     font-weight: 900;
     font-size: 4em;
     width: 40%;
+    
+    
+}
+
+.titulo3 h5 {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 900;
+    font-size: 4em;
+    width: 100%;
+    text-align: center;
     
 }
 
@@ -84,6 +108,14 @@ body::-webkit-scrollbar{width: 5px;} body::-webkit-scrollbar-thumb{background-co
     width: 40%;
     
 }
+.titulo3 p{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+    
+    
+}
 
 .carousel-item img
 {
@@ -106,5 +138,27 @@ body::-webkit-scrollbar{width: 5px;} body::-webkit-scrollbar-thumb{background-co
     text-align: center;
     opacity: .5;
     transition: opacity .15s ease;
+    background-color: #0000003d;
 }
+
+
+/*secciones de imagenes*/
+.texto-seccion-1
+{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+
+}
+.texto-seccion-1 h1
+{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+
+
+
+
+
 

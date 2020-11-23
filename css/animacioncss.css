@@ -1,0 +1,18 @@
+/*Animaciones services*/
+
+.cardd:hover
+{
+ animation: 1s cajas forwards;
+}
+@keyframes cajas 
+{
+    0%
+    {
+        transform: translateY(0px);
+    }
+    100%
+    {
+transform: translateY(-5px);
+box-shadow: 0px 15px 45px rgba(0,0,0,0.2);
+    }
+}
