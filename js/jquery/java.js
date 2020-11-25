@@ -49,6 +49,12 @@ var conexion = 0;
 if(conexion == 1);
 
 
+
+$("#login").click(function (e) { 
+    e.preventDefault();
+    
+});
+
 $("#comprarr").click(function () { 
     $("#global").css({"display":"block"})
     
