@@ -1,0 +1,168 @@
+/*Imagen principal*/
+.contenedor {
+    background-image: url(/Enlaces/Seccion1/img/1.jpg);
+    background-size: cover;
+    display: flex;
+}
+.contenedor .Seccion{
+    background-color: rgba(0, 0, 0, 0.616);
+    align-self: flex-start;
+    margin: 5% 0 0 5%;
+    color:white;
+    padding: 2%;
+    width: 50%;
+    font-family: 'Anton', sans-serif;
+}
+.contenedor .Seccion h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.contenedor .eslogan{
+    background-color: rgba(3, 3, 3, 0.377);
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    margin-top:15%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+}
+.contenedor .eslogan .titulo{
+    display: flex;
+    flex-flow: row wrap;
+    font-size:20px;
+    justify-content: space-between;
+    font-family: 'Bree Serif', serif;
+    padding: 3%;
+    font-style: italic;
+}
+.contenedor .eslogan .titulo .rojo{
+    color: rgb(221, 32, 32);
+}
+.contenedor .eslogan .titulo .negro{
+    color: rgb(255, 255, 255);
+}
+.contenedor .eslogan .mensaje{
+    padding: 3%;
+    color: white;
+}
+/*Seccion de destacados*/
+.destacados{
+    margin: 3% 8% 0 8%;
+}
+.destacados .titulo-destacados{
+    font-size:30px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+
+}
+.carousel-control-next, .carousel-control-prev {
+    background-color: #0000003d;
+    width: 3% !important;
+}
+/*Primera seccion de productos*/
+.cont-vegetales{
+    width: 70%;
+}
+.cont-vegetales h2{
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 2%;
+    font-family: 'Bree Serif', serif;
+}
+.productos{
+    width: 100%;
+    display: flex;
+    margin: 2% 0 1% 5%;
+    align-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.productos div img{
+    width: 100%;
+}
+.productos .menu{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+}
+.productos .menu h2{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+.productos .menu div{
+    display: flex;
+    flex-direction: column;
+}
+.productos .menu div button{
+    margin-bottom: 3%;
+    padding: 5px 0 5px 0;
+    background-color: rgba(253, 122, 34, 0.548);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Bree Serif', serif;
+}
+.productos .menu div button:hover{
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    transition: 0.5s;
+}
+.seccion{
+    display: flex;
+    flex-direction: row;
+}
+.seccion .producto{
+    width: 30%;
+    margin: 0 0 0 4%;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    border-radius: 10px;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.253);
+}
+.seccion .producto .Nombre{
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+}
+.seccion .producto .precio{
+    background-color: lightgreen;
+    font-size: 15px;
+    font-style: italic;
+    width: 50%;
+    text-align: center;
+}
+.seccion .producto .comprar{
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100%!important;
+    margin: 2% 0 0 0;
+    flex-wrap: wrap;
+}
+
+/*Media Query Para una vista mediana*/
+@media screen and (max-width:814px){
+    
+}
+/*Media Query Para una vista movil*/
+@media screen and (max-width:600px){
+    .productos .menu{
+        width: 80%;
+    
+    }
+    .cont-vegetales{
+        width: 80%;
+        justify-items: center;
+    }
+    
+    .seccion{
+        flex-wrap: wrap;
+    }
+    .seccion .producto{
+        width: 80%;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+}
