@@ -1,0 +1,66 @@
+/*Media Query Para una vista mediana*/
+@media screen and (max-width:814px){
+    
+    .seccion .producto .comprar{
+        flex-wrap:wrap;
+    }
+    .seccion .producto .comprar .dropdown{
+        width: 100%;
+    }
+    .seccion .producto .comprar .btn{
+        width: 100%;
+    }
+}
+/*Media Query Para una vista movil*/
+@media screen and (max-width:600px){
+    .contenedor {
+        flex-wrap: wrap;
+    }
+    .contenedor .Seccion{
+        margin: 5% 2% 2% 5%;
+        width: 100%;
+    }
+    .contenedor .eslogan{
+        width:70%;
+        margin-top:2%;
+        margin-bottom: 2%;
+        margin-left: 15%;
+        margin-right: 1%;
+    }
+    .contenedor .Seccion h1{
+        font-size: 40px;
+    }
+    .productos{
+        justify-content: center;
+    }
+    .productos .menu{
+        width: 80%;
+    
+    }
+    .cont-vegetales{
+        width: 80%;
+        justify-items: center;
+    }
+    
+    .seccion{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .seccion .producto{
+        width: 80%;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+    .destacados{
+        margin: 2%;
+        padding: 5%;
+        width: 100%;
+    }
+    #carouselExampleInterval{
+        display: none;
+    }
+    #carouselExampleControls{
+        display: block;
+    }
+
+}
