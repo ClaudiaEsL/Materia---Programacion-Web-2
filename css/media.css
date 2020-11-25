@@ -1,0 +1,27 @@
+@media only screen and (max-width: 600px) {
+    
+    #global {
+        
+        width: 60%;
+       
+    }
+    #global h1 
+    {
+        font-size: 1.4em;
+    }
+    .texto {
+       padding: 0px;
+        background: #fff;
+        margin: 10px 0px;
+        font-size: 0.8em;
+    }
+    .texto img 
+    {
+        width: 40px;
+    }
+    .botones
+    {
+        width: 60%;
+    }
+
+  }
