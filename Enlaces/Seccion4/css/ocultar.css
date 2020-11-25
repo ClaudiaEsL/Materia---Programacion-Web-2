@@ -1,0 +1,5 @@
+/*ocultar*/
+#tomates, #papas, #lechugas, #cebollas, #melones, #frutas-secas, #platanos,
+#manzanas, #uvas{
+    display: none;
+}

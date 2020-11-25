@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+/*Imagen principal*/
+.contenedor {
+    background-image: url(.././img/1.jpg);
+    background-size: cover;
+    display: flex;
+}
+.contenedor .Seccion{
+    background-color: rgba(0, 0, 0, 0.616);
+    align-self: flex-start;
+    margin: 5% 0 0 5%;
+    color:white;
+    padding: 2%;
+    width: 50%;
+    font-family: 'Anton', sans-serif;
+}
+.contenedor .Seccion h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.contenedor .eslogan{
+    background-color: rgba(3, 3, 3, 0.377);
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    margin-top:15%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+}
+.contenedor .eslogan .titulo{
+    display: flex;
+    flex-flow: row wrap;
+    font-size:20px;
+    justify-content: space-between;
+    font-family: 'Bree Serif', serif;
+    padding: 3%;
+    font-style: italic;
+}
+.contenedor .eslogan .titulo .rojo{
+    color: rgb(221, 32, 32);
+}
+.contenedor .eslogan .titulo .negro{
+    color: rgb(255, 255, 255);
+}
+.contenedor .eslogan .mensaje{
+    padding: 3%;
+    color: white;
+}
+/*Seccion de destacados*/
+.destacados{
+    margin: 2%;
+    padding: 3%;
+    background-color: rgb(204, 228, 157);
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.336);
+}
+.destacados .titulo-destacados{
+    font-size:30px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+
+}
+.carousel-control-next, .carousel-control-prev {
+    background-color: #0000003d;
+    width: 3% !important;
+}
+#carouselExampleControls{
+    display: none;
+}
+/*Primera seccion de productos*/
+.cont-vegetales{
+    width: 70%;
+    margin: 1%;
+    padding: 5%;
+    box-shadow:  0 0 5px 0px rgba(165, 165, 165, 0.336);
+}
+.cont-vegetales h2{
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 2%;
+    font-family: 'Bree Serif', serif;
+}
+.productos{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: rgba(243, 242, 255, 0.397);
+    padding: 2%;
+    justify-content: space-between;
+}
+.productos div img{
+    width: 100%;
+}
+.productos .menu{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: rgb(217, 224, 255);
+    padding: 2%;
+    box-shadow:  0 0 5px 2px rgba(0, 0, 0, 0.336);
+
+}
+.productos .menu h2{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    color: rgb(0, 0, 29);
+}
+.productos .menu div{
+    display: flex;
+    flex-direction: column;
+}
+.productos .menu div button{
+    margin-bottom: 3%;
+    padding: 5px 0 5px 0;
+    background-color: rgba(120, 111, 204, 0.397);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Bree Serif', serif;
+    border: none;
+    border-radius: 5px 0 2px;
+}
+.productos .menu div button:hover{
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    transition: 0.5s;
+}
+.seccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+}
+.seccion .producto{
+    width: 30%;
+    border-radius: 10px;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.253);
+    box-shadow:  0 0 5px 2px rgba(165, 165, 165, 0.336);
+}
+.seccion .producto:hover{
+    box-shadow:  0 0 5px 2px rgba(47, 202, 0, 0.925);
+}
+.seccion .producto .Nombre{
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+}
+.seccion .producto .precio{
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-style: italic;
+    width: 50%;
+    text-align: center;
+}
+.seccion .producto .comprar{
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100%!important;
+    margin: 2% 0 0 0;
+}
+.seccion .producto .comprar .dropdown .dropdown-toggle{
+    width: 100% !important;
+    display: block;
+    text-align: center;
+}
+.seccion .producto .comprar .btn{
+    display: flex;
+    flex-flow: row;
+    width: 100% !important;
+    font-size: 15px !important;
+    justify-content: center;
+}
