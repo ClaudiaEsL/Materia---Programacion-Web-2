@@ -1,6 +1,6 @@
 /*Imagen principal*/
 .contenedor {
-    background-image: url(img/1.jpg);
+    background-image: url(Enlaces/Seccion1/img/1.jpg);
     background-size: cover;
     display: flex;
 }
@@ -117,7 +117,6 @@
 }
 .seccion .producto{
     width: 30%;
-    margin: 0 0 0 4%;
     border: 1px solid rgba(0, 0, 0, 0.253);
     border-radius: 10px;
     padding: 2%;
