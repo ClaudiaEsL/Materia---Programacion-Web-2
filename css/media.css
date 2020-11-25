@@ -3,6 +3,8 @@
     #global {
         
         width: 60%;
+        height: 1200px;
+
        
     }
     #global h1 
@@ -17,11 +19,12 @@
     }
     .texto img 
     {
-        width: 40px;
+        width: 50px;
     }
     .botones
     {
         width: 60%;
+        top: 92%;
     }
 
   }
