@@ -253,3 +253,7 @@ a { -webkit-tap-highlight-color: rgba(0,0,0,0); }
     margin-left: 10px;
 }
 
+#particles-js
+{
+    height: 500px;
+}

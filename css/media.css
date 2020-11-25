@@ -26,5 +26,23 @@
         width: 60%;
         top: 90%;
     }
+    .cardd
+    {
+        display: block !important;
+    }
+    .card 
+    {
+        width: 100% !important;
+    }
+
+    .titulo1 {
+        
+        font-size: 0.9em;
+    }
+
+    #particles-js
+    {
+        height: 1000px ;
+    }
 
   }
