@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+    
+    #global {
+        
+        width: 60%;
+        height: 1200px;
+
+       
+    }
+    #global h1 
+    {
+        font-size: 1.4em;
+    }
+    .texto {
+       padding: 0px;
+        background: #fff;
+        margin: 10px 0px;
+        font-size: 0.8em;
+    }
+    .texto img 
+    {
+        width: 50px;
+    }
+    .botones
+    {
+        width: 60%;
+        top: 90%;
+    }
+    .cardd
+    {
+        display: block !important;
+    }
+    .card 
+    {
+        width: 100% !important;
+    }
+
+    .titulo1 {
+        
+        font-size: 0.9em;
+    }
+
+    #particles-js
+    {
+        height: 1000px ;
+    }
+
+  }

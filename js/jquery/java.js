@@ -36,3 +36,20 @@ $("#salir2").click(function () {
     
     
 });
+
+$("#salir3").click(function () { 
+    $("#global").css({"display":"none"})
+    
+    
+});
+
+
+
+var conexion = 0;
+if(conexion == 1);
+
+
+$("#comprarr").click(function () { 
+    $("#global").css({"display":"block"})
+    
+});
