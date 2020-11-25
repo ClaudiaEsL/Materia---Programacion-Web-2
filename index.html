@@ -20,6 +20,9 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <!-- Fin de Boostrap -->
 
+  <!-- icons boostrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- Fin  -->
 </head>
 
 <body >
@@ -64,10 +67,11 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            INICIAR SESION
+            ENTRAR
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">CREAR CUENTA</a>
+            <p class="dropdown-item" id="uno">INICIAR SESION</p>
+            <p class="dropdown-item" id="dos">CREAR CUENTA</p>
 
 
           </div>
@@ -582,6 +586,133 @@
     
 
 
+<!-- Iniciar sesion content -->
+<div class="container-fluid" id="inicio-sesion" style="display: none;" >
+
+  <div class="container">
+  
+  <div class="row">
+    <div class="col-sm-12" style="text-align: end;">
+      <h1 id="salir" style="color: #0000ff;cursor: pointer;"><i class="fa fa-times" aria-hidden="true"></i></h1>
+    </div>
+  </div>
+  
+    <div class="row">
+      <div class="col-sm-4">
+  
+      </div>
+      <div class="col-sm-4">
+        <div class="card p-3" style="width: 20rem;background-color: transparent; border: none;" >
+          <img src="img/logo-hipermaxi.png"  class="card-img-top" style="background-color: transparent;" alt="...">
+          <div class="card-body p-3" style="background-color: white;    box-shadow: 0px 15px 45px rgba(0,0,0,0.4);">
+            <h5 class="card-title">Iniciar sesion</h5>
+  
+            <ul class="list-group list-group-flush">
+              <form>
+                <div class="form-group">
+  
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo">
+  
+                </div>
+                <div class="form-group">
+  
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                </div>
+  
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Crear una cuenta</a>
+              <br>
+              <a href="#" class="card-link">Se me olvido mi contraseña</a>
+            </div>
+              </div>
+  
+        </div>
+      </div>
+      <div class="col-sm-4">
+  
+      </div>
+    </div>
+  
+  
+  </div>
+  
+  </div>
+  
+  <!-- Fin de iniciar sesion content -->
+
+
+<!-- Registrarse  content -->
+<div class="container-fluid" id="registrarse" style="display: none;" >
+
+  <div class="container">
+  
+  <div class="row">
+    <div class="col-sm-12" style="text-align: end;">
+      <h1 id="salir2" style="color: #0000ff;cursor: pointer;"><i class="fa fa-times" aria-hidden="true"></i></h1>
+    </div>
+  </div>
+  
+    <div class="row">
+      <div class="col-sm-4">
+  
+      </div>
+      <div class="col-sm-4">
+        <div class="card p-3" style="width: 20rem;background-color: transparent; border: none;" >
+          <img src="img/logo-hipermaxi.png"  class="card-img-top" style="background-color: transparent;" alt="...">
+          <div class="card-body p-3" style="background-color: white;    box-shadow: 0px 15px 45px rgba(0,0,0,0.4);">
+            <h5 class="card-title">Registrarse</h5>
+  
+            <ul class="list-group list-group-flush">
+              <form>
+                <div class="form-group">
+  
+                  <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Nombre">
+  
+                </div>
+
+                <div class="form-group">
+  
+                  <input type="text" class="form-control" id="apellidoP" aria-describedby="emailHelp" placeholder="Apellido Paterno">
+  
+                </div>
+                <div class="form-group">
+  
+                  <input type="email" class="form-control" id="correo" aria-describedby="emailHelp" placeholder="Correo">
+  
+                </div>
+                <div class="form-group">
+                  
+  
+                  <input type="password" class="form-control" id="contra1" placeholder="Contraseña">
+                </div>
+                <div class="form-group">
+                  
+  
+                  <input type="password" class="form-control" id="contra2" placeholder="Contraseña">
+                </div>
+  
+                <button type="submit" class="btn btn-success">Enviar</button>
+              </form>
+            </ul>
+            
+              </div>
+  
+        </div>
+      </div>
+      <div class="col-sm-4">
+  
+      </div>
+    </div>
+  
+  
+  </div>
+  
+  </div>
+  
+  <!-- Fin de Registrarse  content -->
 
 
 
@@ -643,6 +774,12 @@
 
   <script src="js/particulas/particle.js"></script>
   <script src="js/particulas/particulas.js"></script>
+
+
+    <!-- Jquery -->
+<script src="js/jquery/jquery.js"></script>
+<script src="js/jquery/java.js"></script>
+  <!-- fin de Jquery -->
 
 </body>
 
