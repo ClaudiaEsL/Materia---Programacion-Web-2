@@ -46,12 +46,21 @@ $("#salir3").click(function () {
 
 
 var conexion = 0;
-if(conexion == 1);
+if(conexion == 1)
+{
+    $("#inicio-sesion").css({"display":"none"})
+    
+    
+}
 
 
 
-$("#login").click(function (e) { 
-    e.preventDefault();
+$("#login").click(function () { 
+    $("#inicio-sesion").css({"display":"none"})
+    conexion = 1;
+    $("#navbarDropdown").css({"display":"none"})
+    $("#cuenta").css({"display":"block"})
+    
     
 });
 
@@ -59,3 +68,12 @@ $("#comprarr").click(function () {
     $("#global").css({"display":"block"})
     
 });
+
+
+$(".list-group-item li").hover(function () {
+       $(".list-group-item").css({"background-color":"blue"});
+        
+    }, function () {
+        $(".list-group-item").css({"background-color":"white"});
+    }
+);
