@@ -68,3 +68,12 @@ $("#comprarr").click(function () {
     $("#global").css({"display":"block"})
     
 });
+
+
+$(".list-group-item li").hover(function () {
+       $(".list-group-item").css({"background-color":"blue"});
+        
+    }, function () {
+        $(".list-group-item").css({"background-color":"white"});
+    }
+);
