@@ -7,10 +7,10 @@ $("#btn-hortalizas").click(
         $("#lechugas").css("display","none");
         $("#cebollas").css("display","none");
 
-        $("#btn-tomates").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-papas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-lechugas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-cebollas").css("background-color","rgba(120, 111, 204, 0.397)");
+        $("#btn-tomates").css("background-color","rgb(255, 136, 0)");
+        $("#btn-papas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-lechugas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-cebollas").css("background-color","rgb(255, 136, 0)");
         //mostrar
         $("#btn-hortalizas").css("background-color"," rgba(0, 0, 0, 0.548)");
         $("#hortalizas").css("display","flex").slideDown(1000);
@@ -26,10 +26,10 @@ $("#btn-tomates").click(
         $("#lechugas").css("display","none");
         $("#cebollas").css("display","none");
 
-        $("#btn-hortalizas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-papas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-lechugas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-cebollas").css("background-color","rgba(120, 111, 204, 0.397)");
+        $("#btn-hortalizas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-papas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-lechugas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-cebollas").css("background-color","rgb(255, 136, 0)");
         //mostrar
         $("#btn-tomates").css("background-color"," rgba(0, 0, 0, 0.548)");
         $("#tomates").css("display","flex").slideDown(1000);     
@@ -44,10 +44,10 @@ $("#btn-papas").click(
         $("#lechugas").css("display","none");
         $("#cebollas").css("display","none");
 
-        $("#btn-hortalizas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-tomates").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-lechugas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-cebollas").css("background-color","rgba(120, 111, 204, 0.397)");
+        $("#btn-hortalizas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-tomates").css("background-color","rgb(255, 136, 0)");
+        $("#btn-lechugas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-cebollas").css("background-color","rgb(255, 136, 0)");
         //mostrar
         $("#btn-papas").css("background-color"," rgba(0, 0, 0, 0.548)");
         $("#papas").css("display","flex").slideDown(1000);     
@@ -62,10 +62,10 @@ $("#btn-lechugas").click(
         $("#papas").css("display","none");
         $("#cebollas").css("display","none");
 
-        $("#btn-hortalizas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-tomates").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-papas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-cebollas").css("background-color","rgba(120, 111, 204, 0.397)");
+        $("#btn-hortalizas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-tomates").css("background-color","rgb(255, 136, 0)");
+        $("#btn-papas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-cebollas").css("background-color","rgb(255, 136, 0)");
         //mostrar
         $("#btn-lechugas").css("background-color"," rgba(0, 0, 0, 0.548)");
         $("#lechugas").css("display","flex").slideDown(1000);     
@@ -80,10 +80,10 @@ $("#btn-cebollas").click(
         $("#lechugas").css("display","none");
         $("#papas").css("display","none");
 
-        $("#btn-hortalizas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-tomates").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-lechugas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-papas").css("background-color","rgba(120, 111, 204, 0.397)");
+        $("#btn-hortalizas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-tomates").css("background-color","rgb(255, 136, 0)");
+        $("#btn-lechugas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-papas").css("background-color","rgb(255, 136, 0)");
         //mostrar
         $("#btn-cebollas").css("background-color"," rgba(0, 0, 0, 0.548)");
         $("#cebollas").css("display","flex").slideDown(1000);     
@@ -101,11 +101,11 @@ $("#btn-citricos").click(
         $("#manzanas").css("display","none");
         $("#uvas").css("display","none");
 
-        $("#btn-melones").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-frutas-secas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-platanos").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-manzanas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-uvas").css("background-color","rgba(120, 111, 204, 0.397)");
+        $("#btn-melones").css("background-color","rgb(255, 136, 0)");
+        $("#btn-frutas-secas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-platanos").css("background-color","rgb(255, 136, 0)");
+        $("#btn-manzanas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-uvas").css("background-color","rgb(255, 136, 0);");
         //mostrar
         $("#btn-citricos").css("background-color"," rgba(0, 0, 0, 0.548)");
         $("#citricos").css("display","flex").slideDown(1000);
@@ -122,11 +122,11 @@ $("#btn-melones").click(
         $("#manzanas").css("display","none");
         $("#uvas").css("display","none");
 
-        $("#btn-citricos").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-frutas-secas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-platanos").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-manzanas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-uvas").css("background-color","rgba(120, 111, 204, 0.397)");
+        $("#btn-citricos").css("background-color","rgb(255, 136, 0)");
+        $("#btn-frutas-secas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-platanos").css("background-color","rgb(255, 136, 0)");
+        $("#btn-manzanas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-uvas").css("background-color","rgb(255, 136, 0)");
         //mostrar
         $("#btn-melones").css("background-color"," rgba(0, 0, 0, 0.548)");
         $("#melones").css("display","flex").slideDown(1000);    
@@ -142,11 +142,11 @@ $("#btn-frutas-secas").click(
         $("#manzanas").css("display","none");
         $("#uvas").css("display","none");
 
-        $("#btn-melones").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-citricos").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-platanos").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-manzanas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-uvas").css("background-color","rgba(120, 111, 204, 0.397)");
+        $("#btn-melones").css("background-color","rgb(255, 136, 0)");
+        $("#btn-citricos").css("background-color","rgb(255, 136, 0)");
+        $("#btn-platanos").css("background-color","rgb(255, 136, 0)");
+        $("#btn-manzanas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-uvas").css("background-color","rgb(255, 136, 0)");
         //mostrar
         $("#btn-frutas-secas").css("background-color"," rgba(0, 0, 0, 0.548)");
         $("#frutas-secas").css("display","flex").slideDown(1000);    
@@ -162,11 +162,11 @@ $("#btn-platanos").click(
         $("#manzanas").css("display","none");
         $("#uvas").css("display","none");
 
-        $("#btn-melones").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-frutas-secas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-citricos").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-manzanas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-uvas").css("background-color","rgba(120, 111, 204, 0.397)");
+        $("#btn-melones").css("background-color","rgb(255, 136, 0)");
+        $("#btn-frutas-secas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-citricos").css("background-color","rgb(255, 136, 0)");
+        $("#btn-manzanas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-uvas").css("background-color","rgb(255, 136, 0);");
         //mostrar
         $("#btn-platanos").css("background-color"," rgba(0, 0, 0, 0.548)");
         $("#platanos").css("display","flex").slideDown(1000);     
@@ -182,11 +182,11 @@ $("#btn-manzanas").click(
         $("#citricos").css("display","none");
         $("#uvas").css("display","none");
 
-        $("#btn-melones").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-frutas-secas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-platanos").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-citricos").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-uvas").css("background-color","rgba(120, 111, 204, 0.397)");
+        $("#btn-melones").css("background-color","rgb(255, 136, 0)");
+        $("#btn-frutas-secas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-platanos").css("background-color","rgb(255, 136, 0)");
+        $("#btn-citricos").css("background-color","rgb(255, 136, 0)");
+        $("#btn-uvas").css("background-color","rgb(255, 136, 0);");
         //mostrar
         $("#btn-manzanas").css("background-color"," rgba(0, 0, 0, 0.548)");
         $("#manzanas").css("display","flex").slideDown(1000);    
@@ -202,11 +202,11 @@ $("#btn-uvas").click(
         $("#citricos").css("display","none");
         $("#manzanas").css("display","none");
 
-        $("#btn-melones").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-frutas-secas").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-platanos").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-citricos").css("background-color","rgba(120, 111, 204, 0.397)");
-        $("#btn-manzanas").css("background-color","rgba(120, 111, 204, 0.397)");
+        $("#btn-melones").css("background-color","rgb(255, 136, 0)");
+        $("#btn-frutas-secas").css("background-color","rgb(255, 136, 0)");
+        $("#btn-platanos").css("background-color","rgb(255, 136, 0)");
+        $("#btn-citricos").css("background-color","rgb(255, 136, 0)");
+        $("#btn-manzanas").css("background-color","rgb(255, 136, 0)");
         //mostrar
         $("#btn-uvas").css("background-color"," rgba(0, 0, 0, 0.548)");
         $("#uvas").css("display","flex").slideDown(1000);    
