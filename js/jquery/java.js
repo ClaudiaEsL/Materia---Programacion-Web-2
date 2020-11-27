@@ -70,10 +70,3 @@ $("#comprarr").click(function () {
 });
 
 
-$(".list-group-item li").hover(function () {
-       $(".list-group-item").css({"background-color":"blue"});
-        
-    }, function () {
-        $(".list-group-item").css({"background-color":"white"});
-    }
-);

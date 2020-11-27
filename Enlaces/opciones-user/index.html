@@ -14,6 +14,7 @@
 <!-- styles -->
 <link rel="stylesheet" href="../../css/style.css">
 <link rel="stylesheet" href="../../css/animacioncss.css">
+<link rel="stylesheet" href="css/style.css">
 
 <!-- media -->
 <link rel="stylesheet" href="../../css/media.css">
@@ -92,21 +93,225 @@
 
 <div class="container-fluid p-0">
     <div class="row" style="margin: 0px;">
-        <div class="col-sm-3 border border-primary">
+        <div class="col-sm-3 border ">
             <h3 class="p-2" style="text-align: center;"> <i class="fa fa-cog" aria-hidden="true"></i>  OPCIONES</h3>
             <hr>
             <div class="card" style="width: 18rem;">
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item"> <i class="fa fa-address-book" aria-hidden="true"></i> CUENTA</li>
-                  <li class="list-group-item"><i class="fa fa-shopping-basket" aria-hidden="true"></i> HISTORIAL DE COMPRA</li>
-                  <li class="list-group-item"><i class="fa fa-pencil" aria-hidden="true"></i> EDITAR</li>
-                  <li class="list-group-item"><i class="fa fa-credit-card-alt" aria-hidden="true"></i> TARJETA DE CREDITO</li>
+                  <li class="list-group-item" id="tab-1"> <i class="fa fa-address-book" aria-hidden="true"></i>   CUENTA</li>
+                  <li class="list-group-item" id="tab-2"><i class="fa fa-shopping-basket" aria-hidden="true"></i>   HISTORIAL DE COMPRA</li>
+                  <li class="list-group-item" id="tab-3"><i class="fa fa-pencil" aria-hidden="true"></i>   EDITAR</li>
+                  <li class="list-group-item" id="tab-4"><i class="fa fa-credit-card-alt" aria-hidden="true"></i>   TARJETA DE CREDITO</li>
                 </ul>
               </div>
         </div>
-        <div class="col-sm-9 border border-primary">
-            2
+        <div class="col-sm-9 border ">
             
+          <!-- Usuario -->
+
+          <div class="container" id="usuario-caja" style="display: block;">
+            <div class="row border " style="margin: 0px;">
+            <div class="col-sm-6 p-4">
+              <p>Nombre:</p> <p>.</p>
+              <p>Apellido Paterno:</p> <p>.</p>
+              <p>Apellido Materno:</p> <p>.</p>
+              <p>Telefono/Celular:</p> <p>.</p>
+              <p>Vivienda</p> <p>.</p>
+              <p>Numero de casa:</p> <p>.</p>
+            </div>
+            <div class="col-sm-6 p-4 ">
+
+              <div class="card" style="width: 18rem;">
+                <img src="dummy-prod-1.jpg" class="card-img-top" alt="imagen-usuario">
+                <div class="card-body">
+                  <p class="card-text">Puedes cambiar tu foto en el apartado "EDITAR"</p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          <!-- fin usuario -->
+
+<!-- HISTORIAL DE COMPRAR -->
+<div class="container" id="compra-caja" style="display: none;">
+  <div class="row border boder-primary" style="margin: 0px;">
+  <div class="col-sm-12 p-4">
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Producto</th>
+          <th scope="col">Precio</th>
+          <th scope="col">Fecha</th>
+          <th scope="col">Verificada</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Manzana</td>
+          <td>2bs</td>
+          <td>27/11/2020</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Manzana,pepsi</td>
+          <td>14bs</td>
+          <td>27/11/2020</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Manzana</td>
+          <td>2bs</td>
+          <td>27/11/2020</td>
+          <td>SI</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    
+  </div>
+ 
+  </div>
+</div>
+<!-- Fin historial de compras -->
+
+
+
+<!-- editar -->
+<div class="container" id="editar-caja" style="display: none;">
+  <form>
+  <div class="row border " style="margin: 0px;">
+  <div class="col-sm-6 p-4">
+    
+      <div class="form-group">
+        <label for="exampleInputEmail1">Nombre</label>
+        <p id="content-1">.</p>
+        <input style="display: none;" type="email" class="form-control" id="nombre" aria-describedby="emailHelp" >
+        
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Apellido Paterno</label>
+        <p id="content-2">.</p>
+        <input style="display: none;" type="email" class="form-control" id="apellp" aria-describedby="emailHelp">
+        
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Apellido Materno</label>
+        <p id="content-3">.</p>
+        <input style="display: none;" type="email" class="form-control" id="apellm" aria-describedby="emailHelp">
+        
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Telefono/Celular</label>
+        <p id="content-4">.</p>
+        <input style="display: none;" type="email" class="form-control" id="tel" aria-describedby="emailHelp">
+        
+      </div>
+      
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Vivienda</label>
+        <p id="content-5">.</p>
+        <textarea style="display: none;" class="form-control" id="vivienda" rows="3"></textarea>
+      </div>
+      <label for="exampleInputEmail1">Numero de vivienda</label>
+      <p id="content-6">.</p>
+      <input style="display: none;" type="number" class="form-control" id="numvivienda" aria-describedby="emailHelp">
+
+     
+      <br>
+      <p style="display: block;"  id="edit" class="btn btn-danger">Editar</p>
+      <p style="display: none;"  id="fin" class="btn btn-success">Finalizar</p>
+      <p style="display: none;"  id="cancelar" class="btn btn-warning">Cancelar</p>
+    
+  </div>
+  <div class="col-sm-6 p-4 ">
+
+    <div class="card" style="width: 18rem; border: none;">
+      <img src="dummy-prod-1.jpg" class="card-img-top" alt="imagen-usuario">
+      <div class="card-body">
+        
+        <div class="form-group" style=" display: none;">
+          <label for="exampleFormControlFile1"></label>
+          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</form>
+</div>
+<!-- fin editar -->
+          
+
+
+
+<!-- tarjeta -->
+<div class="container" id="tarjeta-caja" style="display: none;">
+  
+  <div class="row border " style="margin: 0px;">
+  <div class="col-sm-6 p-4">
+    <h5>Tus tarjetas</h5>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Selecciona</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>1543543535345</option>
+        <option>2564645645646</option>
+        <option>345645645645646</option>
+        <option>445645645654654</option>
+        <option>5456456456456</option>
+      </select>
+      <br>
+      <p class=" btn btn-success">Elegir </p>
+
+      <p class=" btn btn-success" id="añadir-tarjeta-caja">Añadir nueva tarjeta</p>
+    </div>
+  </div>
+  <div class="col-sm-6 p-4 ">
+
+
+    <form id="añadir-tarjeta" style="display: none;">
+      <div class="form-group" >
+
+        <label for="exampleFormControlSelect1">Tipo de tarjeta</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>Visa</option>
+          <option>Debito</option>
+          
+        </select>
+        <label for="exampleInputEmail1">Numero de la tarjeta</label>
+        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Nombre del propietario</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Apellido Paterno</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Apellido Materno</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">CVC</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">fecha de vencimiento de la tarjeta</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+     
+      <button type="submit" id="fintarjeta" class="btn btn-success">Añadir</button>
+    </form>
+    
+  </div>
+  </div>
+</div>
+<!-- fin tarjeta -->
         </div>
     </div>
 </div>
@@ -178,6 +383,7 @@
         <!-- Jquery -->
     <script src="../../js/jquery/jquery.js"></script>
     <script src="../../js/jquery/java.js"></script>
+    <script src="js/js.js"></script>
       <!-- fin de Jquery -->
 
     

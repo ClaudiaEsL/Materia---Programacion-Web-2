@@ -1,0 +1,13 @@
+#tab-1:hover,#tab-2:hover,#tab-3:hover,#tab-4:hover,#tab-5:hover
+{
+    background-color: #ff7712;
+    transition: 1s;
+}
+.card ul li i 
+{
+    cursor: pointer;
+}
+.list-group-flush>.list-group-item {
+    border-width: 0 0 1px;
+    cursor: pointer;
+}
