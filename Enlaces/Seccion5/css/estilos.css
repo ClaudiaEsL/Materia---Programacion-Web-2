@@ -154,6 +154,9 @@
 .seccion .producto .Nombre{
     font-family: 'Bree Serif', serif;
     font-size: 18px;
+    text-align: center;
+    height: 20%;
+    
 }
 .seccion .producto .precio{
     background-color: rgb(255, 255, 255);
