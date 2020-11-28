@@ -17,7 +17,7 @@ $("#btn-hortalizas").click(
         
     }
 );
-//boton categoria tomates
+//boton categoria tomatesa
 $("#btn-tomates").click(
     function () {
         //ocultar
