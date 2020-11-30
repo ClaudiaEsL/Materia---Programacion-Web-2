@@ -1,0 +1,30 @@
+.VentanaCarrito{
+    z-index: 100;
+    margin: 30%  0 0 93%;
+}
+.ventana{
+    width: 40%; 
+    margin: 0 5%  0 35%;
+    background-color: orangered;
+    display: block;
+}
+/*Media Query Para una vista mediana*/
+@media screen and (max-width:814px){
+    .VentanaCarrito{
+        margin: 60%  0 0 90%;
+    }
+    .ventana{
+        margin: 0 5%  0 25%;
+        width: 60%;
+    }
+}
+/*Media Query Para una vista movil*/
+@media screen and (max-width:600px){
+    .VentanaCarrito{
+        margin: 130%  0 0 85%;
+    }
+    .ventana{
+        margin: 0 5%  0 15%;
+        width: 70%;
+    }
+}

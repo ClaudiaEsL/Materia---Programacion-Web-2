@@ -1,6 +1,5 @@
 /*Media Query Para una vista mediana*/
 @media screen and (max-width:814px){
-    
     .seccion .producto .comprar{
         flex-wrap:wrap;
     }
@@ -13,6 +12,15 @@
 }
 /*Media Query Para una vista movil*/
 @media screen and (max-width:600px){
+    .VentanaCarrito{
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .ventana{
+        width: 10%;
+        height: 20rem;
+        margin: 10% 10% 0 0%;
+    }
     .contenedor {
         flex-wrap: wrap;
     }
