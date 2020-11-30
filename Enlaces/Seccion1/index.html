@@ -64,7 +64,7 @@
     <!--venta de carrito-->
     <p class="VentanaCarrito"  style="position: fixed;">
         <button  class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart4" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <svg  viewBox="0 0 16 16" class="bi bi-cart4" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
               </svg>
         </button>
@@ -72,15 +72,15 @@
     <div style="z-index: 100;position: fixed;" class="collapse ventana" id="collapseExample">
         <div class="card card-body "style="box-shadow:5px 1px 5px rgb(0, 0, 0);width: 100%;overflow:scroll;height: 20rem;" >
             <div style="background-color: rgb(117, 117, 117);display: flex;flex-direction: row;color:white;justify-content: space-between;padding: 0 2% 0 2%;">
-                <h2 style="font-size: 15px;text-align: center;">Lista de Productos</h2>
+                <h2 class="tituloCarrito">Lista de Productos</h2>
             </div>
             <div id="contenedor-tabla">
                 <table id="lista-productos" style="width: 100%;" >
                     <thead>
-                        <tr style="background-color: rgb(0, 9, 131);width: 100%;color: white;">
-                            <td style="text-align: center;font-size: 13px;">Nombre</td>
-                            <td style="text-align: center;font-size: 13px;">Precio</td>
-                            <td style="text-align: center;font-size: 13px;">Cantidad</td>
+                        <tr class="titulos-productos" style="background-color: rgb(0, 9, 131);width: 100%;color: white;">
+                            <td class="titulos">Nombre</td>
+                            <td class="titulos">Precio</td>
+                            <td class="titulos">Cantidad</td>
                         </tr>
                     </thead>
                     <tbody id="MiLista" style="background-color: rgb(224, 224, 224);">
@@ -91,7 +91,7 @@
                     <p>Total:</p>
                     <label id="total"></label><span>Bs</span>
                 </div>
-                <button onclick="total()" style="font-size: 13px;width: 100%; background-color: rgb(155, 0, 0); border:none;color: white;">Calcular</button>
+                <button class="BotonTotal" onclick="total()">Calcular</button>
             </div>
         </div>
     </div>
