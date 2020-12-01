@@ -239,3 +239,275 @@ function guardar15(){
    	btn.innerHTML = fila;
     document.getElementById("MiLista").appendChild(btn);
 }
+/*----------------------------------------------------------------- */
+/*Añadir productos segunda seccion*/
+function guardar16(){
+    var _Nombre = document.getElementById("Producto31").textContent;
+    var _precio = document.getElementById("Producto32").textContent;
+    var _control = document.getElementById("exampleFormControlSelect16").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar17(){
+    var _Nombre = document.getElementById("Producto33").textContent;
+    var _precio = document.getElementById("Producto34").textContent;
+    var _control = document.getElementById("exampleFormControlSelect17").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar18(){
+    var _Nombre = document.getElementById("Producto35").textContent;
+    var _precio = document.getElementById("Producto36").textContent;
+    var _control = document.getElementById("exampleFormControlSelect18").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar19(){
+    var _Nombre = document.getElementById("Producto37").textContent;
+    var _precio = document.getElementById("Producto38").textContent;
+    var _control = document.getElementById("exampleFormControlSelect19").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar20(){
+    var _Nombre = document.getElementById("Producto39").textContent;
+    var _precio = document.getElementById("Producto40").textContent;
+    var _control = document.getElementById("exampleFormControlSelect20").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar21(){
+    var _Nombre = document.getElementById("Producto41").textContent;
+    var _precio = document.getElementById("Producto42").textContent;
+    var _control = document.getElementById("exampleFormControlSelect21").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar22(){
+    var _Nombre = document.getElementById("Producto43").textContent;
+    var _precio = document.getElementById("Producto44").textContent;
+    var _control = document.getElementById("exampleFormControlSelect22").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar23(){
+    var _Nombre = document.getElementById("Producto45").textContent;
+    var _precio = document.getElementById("Producto46").textContent;
+    var _control = document.getElementById("exampleFormControlSelect23").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar24(){
+    var _Nombre = document.getElementById("Producto47").textContent;
+    var _precio = document.getElementById("Producto48").textContent;
+    var _control = document.getElementById("exampleFormControlSelect24").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar25(){
+    var _Nombre = document.getElementById("Producto49").textContent;
+    var _precio = document.getElementById("Producto50").textContent;
+    var _control = document.getElementById("exampleFormControlSelect25").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar26(){
+    var _Nombre = document.getElementById("Producto51").textContent;
+    var _precio = document.getElementById("Producto52").textContent;
+    var _control = document.getElementById("exampleFormControlSelect26").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar27(){
+    var _Nombre = document.getElementById("Producto53").textContent;
+    var _precio = document.getElementById("Producto54").textContent;
+    var _control = document.getElementById("exampleFormControlSelect27").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar28(){
+    var _Nombre = document.getElementById("Producto55").textContent;
+    var _precio = document.getElementById("Producto56").textContent;
+    var _control = document.getElementById("exampleFormControlSelect28").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar29(){
+    var _Nombre = document.getElementById("Producto57").textContent;
+    var _precio = document.getElementById("Producto58").textContent;
+    var _control = document.getElementById("exampleFormControlSelect29").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar30(){
+    var _Nombre = document.getElementById("Producto59").textContent;
+    var _precio = document.getElementById("Producto60").textContent;
+    var _control = document.getElementById("exampleFormControlSelect30").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar31(){
+    var _Nombre = document.getElementById("Producto61").textContent;
+    var _precio = document.getElementById("Producto62").textContent;
+    var _control = document.getElementById("exampleFormControlSelect31").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar32(){
+    var _Nombre = document.getElementById("Producto63").textContent;
+    var _precio = document.getElementById("Producto64").textContent;
+    var _control = document.getElementById("exampleFormControlSelect32").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+/*Añadir productos primera seccion*/
+function guardar33(){
+    var _Nombre = document.getElementById("Producto65").textContent;
+    var _precio = document.getElementById("Producto66").textContent;
+    var _control = document.getElementById("exampleFormControlSelect33").value;
+    /*Total */
+    var total = parseFloat(_precio)* parseFloat(_control);
+    aux = parseFloat(total) + parseFloat(aux);
+    totalCarrito = aux ;
+    /*Mostrar en producto en la pantalla */
+    var fila="<tr><td>"+_Nombre+"</td><td>"+_precio +"</td><td>"+_control +"</td></tr>";
+    var btn = document.createElement("TR");
+   	btn.innerHTML = fila;
+    document.getElementById("MiLista").appendChild(btn);
+}
+
