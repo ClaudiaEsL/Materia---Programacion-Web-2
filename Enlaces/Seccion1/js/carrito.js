@@ -1,14 +1,3 @@
-//Abrir y cerrar carrito
-$("#carrito").click(
-    function () {
-        $("#ventana-carrito").css("display","block");
-    }
-);
-$("#cerrar").click(
-    function () {
-        $("#ventana-carrito").css("display","none");
-    }
-);
 var totalCarrito;
 var  aux = 0;
 function total(){
